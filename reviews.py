@@ -26,7 +26,6 @@ def parse_reviews(url):
             )
 
 # URL страницы с отзывами о товаре на Wildberries.ru
-url = 'https://www.wildberries.ru/catalog/1234567/otzyvy'
+url = 'https://catalog-ads.wildberries.ru/api/v6/catalog?menuid=9492''
 
-# Парсинг отзывов о товаре по указанному URL
 parse_reviews(url)
